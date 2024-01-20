@@ -1,3 +1,1 @@
-exports.login = () => {
-  console.log("hello world");
-};
+exports.login = (req, res) => res.send("welcome");
